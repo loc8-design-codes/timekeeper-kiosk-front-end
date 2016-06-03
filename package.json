@@ -1,10 +1,10 @@
 {
-  "name": "timekeeper-koisk-front-end",
+  "name": "loc8-designs-codes",
   "version": "0.0.1",
   "description": "Timekeeper Kiosk Front-End",
   "repository": {
     "type": "git",
-    "url": "https://github.com/loc8-design-codes/timekeeper-kiosk-front-end"
+    "url": "git+https://github.com/loc8-design-codes/timekeeper-kiosk-front-end.git"
   },
   "author": "Sandie Veloso III <sandieveloso@priume.com>",
   "devDependencies": {
@@ -13,5 +13,20 @@
     "gulp-notify": "^2.2.0",
     "gulp-ruby-sass": "^0.7.1",
     "gulp-webserver": "^0.9.1"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/loc8-design-codes/timekeeper-kiosk-front-end/issues"
+  },
+  "homepage": "https://github.com/loc8-design-codes/timekeeper-kiosk-front-end#readme",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sass",
+    "front-end",
+    "kiosk",
+    "timekeeper"
+  ],
+  "license": "MIT"
 }
