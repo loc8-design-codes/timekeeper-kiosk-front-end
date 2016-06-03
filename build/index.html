@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Starter Template for Bootstrap</title>
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/app.css" rel="stylesheet">
+</script>
+  </head>
+
+  <body ng-app="loc8" class="ng-scope">
+
+    <!-- uiView -->
+    <div ui-view class="ng-scope">
+    <!-- No Nav -->
+    <!-- uiView -->
+
+      <articile ui-view class="main-container ng-scope">
+
+        <header class="main-header ng-scope">
+            <div class="col-xs-3 text-left"><span class="header-text">Client Logo</span></div>
+            <div class="col-xs-6 text-center"><span class="header-text">3:21PM</span></div>
+            <div class="col-xs-3 text-right"><span class="header-text">Fri 06/12/2016</span></div>
+        </header>
+
+        <section class="main-section ng-scope">
+
+        <!-- uiView: pageContent -->
+        <div ui-view="pageContent" class="ng-scope" >
+
+          <div class="col-xs-3 text-left"></div>
+          <div class="col-xs-6 text-center search-div">
+
+            <h1> Good Afternoon! </h1>
+            <p class="sub-header"> Enter search for your name or scan </p>
+            <span class="link-text"> <a href="qr-code.html"> QR code </a> | <a href="fingerprint.html"> Fingerprint </a></span>
+
+            <form>
+              <fieldset class="form-group">
+                <a href="search.html"><input type="name" class="form-control search-field" id="exampleInputEmail1" placeholder="Search Name"></a>
+              </fieldset>
+            </form>
+
+          </div>
+          <div class="col-xs-3 text-right"></div>
+        </div> 
+
+        <!-- End ui-View Container -->
+
+        </section>  
+      </articile>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Starter Template for Bootstrap</title>
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/app.css" rel="stylesheet">
+</script>
+  </head>
+
+  <body ng-app="loc8" class="ng-scope">
+    <!-- uiView -->
+    <div ui-view class="ng-scope">
+    <!-- No Nav -->
+    <!-- uiView -->
+
+      <articile ui-view class="main-container ng-scope">
+
+        <header class="main-header ng-scope">
+            <div class="col-xs-4 text-left"><span class="header-text">Client Logo</span></div>
+            <div class="col-xs-4 text-center"><span class="header-text">3:21PM</span></div>
+            <div class="col-xs-4 text-right pull-right">
+              <a href="index.html" class="btn btn-back">
+                <i class="fa fa-angle-left fa-3x" aria-hidden="true"></i>
+              </a>
+            </div>
+        </header>
+
+        <section class="main-section ng-scope">
+        <!-- uiView: pageContent -->
+
+             <div class="content-container">
+
+                <div class="container-fluid nopadding">
+                <div class="col-md-9 table-content">
+
+                  <!-- Start Table -->
+                  <table class="table table-bordered table-editable table-full-width">
+                    <thead>
+                      <tr>
+                        <td class="width-35">
+                          <div class="card-block">
+                          <div class="col-md-4 circle-row">
+                                  <p class="circle"><span>SV</span></p>
+                          </div>
+                          <h4 class="card-title">Sandie Y. Veloso III</h4>
+                          <p class="card-text">TS-34234342</p>
+                          </div>
+                        </td>
+                        <td class="width-35">
+                          <div class="card-block">
+                          <h4 class="card-title">June 12, 2016</h4>
+                          <p class="card-text">Friday</p>
+                          </div>
+                        </td>
+                        <td class="width-30">
+                          <div class="card-block">
+                          <h4 class="card-title">3h 29 M</h4>
+                          <p class="card-text">Total Time</p>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th>Clock-in</th>
+                        <th>Clock-out</th>
+                        <th>Rate Type</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td><p class="text-table">8:31 AM</p></td>
+                        <td><p class="text-table">12:00 PM</p></td>
+                        <td><p class="text-table">Normal rate</p></td>
+                      </tr>
+                      <tr>
+                        <td><button type="button" class="btn btn-clock-in btn-lg btn-block">Clock-in</button></td>
+                        <td><button type="button" class="btn btn-clock-out btn-lg btn-block">Clock-out</button></td>
+                        <td><p class="text-table"> Normal Rate </p></td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+                  <!-- End Table -->
+
+                </div>  <!-- End col-md-9 -->
+
+                <div class="row col-md-3">
+                  <button type="button" class="btn btn-rate-type btn-lg btn-block">Normal Rate</button>
+                  <button type="button" class="btn btn-rate-type btn-lg btn-block">Overtime</button>
+                  <button type="button" class="btn btn-rate-type btn-lg btn-block">Double time</button>
+                  <button type="button" class="btn btn-rate-type btn-lg btn-block">Other time</button>
+                
+                </div> <!-- End col-md-3 -->
+
+
+                </div>
+
+                <div class="container-fluid"> <!-- Start Allowance -->
+                    <div class="row allowance-section"> <!-- Allowance Added -->
+                    <span>Allowance: </span> <button type="button" class="btn btn-allowance">OC</button>
+                    </div> <!-- Emd Allowance Added -->
+
+                    <div class="row allowance"> <!-- Allowance List -->
+                    <button type="button" class="btn btn-allowance"><i class="fa fa-minus" aria-hidden="true"></i> On-Call</button>
+                    <button type="button" class="btn btn-allowance"><i class="fa fa-plus" aria-hidden="true"> </i> Night Shift</button>
+                    <button type="button" class="btn btn-allowance"><i class="fa fa-plus" aria-hidden="true"> </i> Travel Allowance</button>
+                    <button type="button" class="btn btn-allowance"><i class="fa fa-plus" aria-hidden="true"> </i> Meal Allowance</button>
+                    </div> <!-- End Allowance List -->
+
+                  </div> <!-- End Allowance -->
+
+        </div>   
+        </section>  
+      </articile>
+    </div>
+  </body>
+</html>

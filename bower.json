@@ -1,0 +1,20 @@
+{
+  "name": "timekeeper-koisk-front-end",
+  "version": "0.0.1",
+  "homepage": "https://github.com/loc8-design-codes/timekeeper-kiosk-front-end",
+  "authors": [
+    "Sandie Veloso III <sandieveloso@priume.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "bootstrap#v4.0.0-alpha",
+    "fontawesome": "~4.3.0"
+  }
+}

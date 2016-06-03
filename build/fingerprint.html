@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Starter Template for Bootstrap</title>
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/app.css" rel="stylesheet">
+</script>
+  </head>
+
+  <body ng-app="loc8" class="ng-scope">
+
+    <!-- uiView -->
+    <div ui-view class="ng-scope">
+    <!-- No Nav -->
+    <!-- uiView -->
+
+      <articile ui-view class="main-container ng-scope">
+
+        <header class="main-header ng-scope">
+            <div class="col-xs-3 text-left"><span class="header-text">Client Logo</span></div>
+            <div class="col-xs-6 text-center"><span class="header-text">3:21PM</span></div>
+            <div class="col-xs-3 text-right pull-right">
+              <a href="index.html" class="btn btn-back">
+                <i class="fa fa-angle-left fa-3x" aria-hidden="true"></i>
+              </a>
+            </div>
+        </header>
+
+        <section class="main-section ng-scope">
+
+        <!-- uiView: pageContent -->
+        <div ui-view="pageContent" class="ng-scope" >
+
+          <div class="col-xs-3 text-left"></div>
+          <div class="col-xs-6 text-center search-div response-screen">
+                
+            <h1> Fingerprint scan</h1>
+            <p class="sub-header"> Place your hands to the finger print scanner.</p>
+
+            <div class="action-box fa-loading">
+            <p class="sub-header">Scanning...</p>
+            <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+              <span class="sr-only">Loading...</span>
+            </div>
+
+          </div>
+          <div class="col-xs-3 text-right"></div>
+        </div>   
+
+        <!-- uiView: pageContent -->
+        
+        </section>  
+      </articile>
+    </div>
+  </body>
+</html>

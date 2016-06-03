@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Starter Template for Bootstrap</title>
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/app.css" rel="stylesheet">
+</script>
+  </head>
+
+  <body ng-app="loc8" class="ng-scope">
+
+    <!-- uiView -->
+    <div ui-view class="ng-scope">
+    <!-- No Nav -->
+    <!-- uiView -->
+
+      <articile ui-view class="main-container ng-scope">
+
+        <header class="main-header ng-scope">
+            <div class="col-xs-3 text-left"><span class="header-text">Client Logo</span></div>
+            <div class="col-xs-6 text-center"><span class="header-text">3:21PM</span></div>
+            <div class="col-xs-3 text-right pull-right">
+              <a href="index.html" class="btn btn-back">
+                <i class="fa fa-angle-left fa-3x" aria-hidden="true"></i>
+              </a>
+            </div>
+        </header>
+
+        <section class="main-section ng-scope">
+
+        <!-- uiView: pageContent -->
+        <div ui-view="pageContent" class="ng-scope" >
+
+        <div id="container">
+
+        <form>
+              <fieldset class="form-group">
+                <input id="write" type="name" class="form-control search-field" placeholder="Search Name">
+              </fieldset>
+        </form>
+
+        <footer>
+          <div class="footer">
+            <ul id="keyboard">
+              <li class="symbol"><span class="off">`</span><span class="on">~</span></li>
+              <li class="symbol"><span class="off">1</span><span class="on">!</span></li>
+              <li class="symbol"><span class="off">2</span><span class="on">@</span></li>
+              <li class="symbol"><span class="off">3</span><span class="on">#</span></li>
+              <li class="symbol"><span class="off">4</span><span class="on">$</span></li>
+              <li class="symbol"><span class="off">5</span><span class="on">%</span></li>
+              <li class="symbol"><span class="off">6</span><span class="on">^</span></li>
+              <li class="symbol"><span class="off">7</span><span class="on">&amp;</span></li>
+              <li class="symbol"><span class="off">8</span><span class="on">*</span></li>
+              <li class="symbol"><span class="off">9</span><span class="on">(</span></li>
+              <li class="symbol"><span class="off">0</span><span class="on">)</span></li>
+              <li class="symbol"><span class="off">-</span><span class="on">_</span></li>
+              <li class="symbol"><span class="off">=</span><span class="on">+</span></li>
+              <li class="delete lastitem">delete</li>
+              <li class="tab">tab</li>
+              <li class="letter">q</li>
+              <li class="letter">w</li>
+              <li class="letter">e</li>
+              <li class="letter">r</li>
+              <li class="letter">t</li>
+              <li class="letter">y</li>
+              <li class="letter">u</li>
+              <li class="letter">i</li>
+              <li class="letter">o</li>
+              <li class="letter">p</li>
+              <li class="symbol"><span class="off">[</span><span class="on">{</span></li>
+              <li class="symbol"><span class="off">]</span><span class="on">}</span></li>
+              <li class="symbol lastitem"><span class="off">\</span><span class="on">|</span></li>
+              <li class="capslock">caps lock</li>
+              <li class="letter">a</li>
+              <li class="letter">s</li>
+              <li class="letter">d</li>
+              <li class="letter">f</li>
+              <li class="letter">g</li>
+              <li class="letter">h</li>
+              <li class="letter">j</li>
+              <li class="letter">k</li>
+              <li class="letter">l</li>
+              <li class="symbol"><span class="off">;</span><span class="on">:</span></li>
+              <li class="symbol"><span class="off">'</span><span class="on">&quot;</span></li>
+              <a href="user.html"><li class="return lastitem">return</li></a>
+              <li class="left-shift">shift</li>
+              <li class="letter">z</li>
+              <li class="letter">x</li>
+              <li class="letter">c</li>
+              <li class="letter">v</li>
+              <li class="letter">b</li>
+              <li class="letter">n</li>
+              <li class="letter">m</li>
+              <li class="symbol"><span class="off">,</span><span class="on">&lt;</span></li>
+              <li class="symbol"><span class="off">.</span><span class="on">&gt;</span></li>
+              <li class="symbol"><span class="off">/</span><span class="on">?</span></li>
+              <li class="right-shift lastitem">shift</li>
+              <li class="space lastitem">&nbsp;</li>
+            </ul>
+          </div>
+        </footer>
+        </div>
+        </div> 
+        <!-- End ui-View Container -->
+
+        </section>  
+      </articile>
+    </div>
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/keyboard.js"></script> 
+  </body>
+</html>
