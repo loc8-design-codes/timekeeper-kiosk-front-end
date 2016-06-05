@@ -2,7 +2,11 @@ $(function(){
 	var $write = $('#write'),
 		shift = false,
 		capslock = false;
-	
+
+	$(".search-field").focus(function(){
+	$write = $(this);
+	});
+
 	$('#keyboard li').click(function(){
 		var $this = $(this),
 			character = $this.html(); // If it's a lowercase letter, nothing happens to this variable
